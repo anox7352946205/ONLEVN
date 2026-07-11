@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ONLEVN — Built by Discipline | Premium Fitness & Wellness Platform</title>
+  <meta name="description" content="ONLEVN is your all-in-one coaching platform that combines personalized training, smart nutrition, habit tracking, and real coach support." />
+  <meta name="keywords" content="ONLEVN, fitness, wellness, coaching, personalized training, nutrition, discipline" />
+  <meta name="theme-color" content="#0D0D0D" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ═══════════════════════ PAGE LOADER ═══════════════════════ -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+      <img src="brand_logo/logo_vertical.png" alt="ONLEVN" class="loader-logo-img" />
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Cursor glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Nav overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <img src="brand_logo/logo_horizontal.png" alt="ONLEVN — Built by Discipline" />
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Home</a>
+        <a href="#programs">Programs</a>
+        <a href="#corporate">Corporate Wellness</a>
+        <a href="#coach">Coach</a>
+        <a href="#faq">Contact</a>
+        <a href="#final-cta" class="btn btn-primary nav-cta">Start Your Journey</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-stripes"></div>
+    <div class="container">
+
+      <!-- Left: copy -->
+      <div class="hero-content reveal">
+        <div class="hero-label">
+          <span class="dot"></span>
+          Welcome to ONLEVN
+        </div>
+        <h1>
+          Built by<br>
+          <span class="text-green">Discipline.</span>
+        </h1>
+        <p class="hero-subtitle">
+          ONLEVN is your all-in-one coaching platform combining personalized training, smart nutrition, habit tracking and real coach support — designed to help you become your strongest self.
+        </p>
+        <div class="hero-buttons">
+          <a href="#final-cta" class="btn btn-primary">
+            Start Your Journey
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#about" class="btn btn-secondary">Explore ONLEVN</a>
+        </div>
+      </div>
+
+      <!-- Right: phone -->
+      <div class="hero-visual reveal-scale">
+        <div class="hero-glow"></div>
+
+        <div class="hero-phone-wrap">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <!-- Splash screen — object-position crops status bar -->
+              <img
+                src="app images/Screenshot_20260709-165438.jpg"
+                alt="ONLEVN App"
+                style="object-position: center 8%;"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating stat pills -->
+        <div class="hero-stat hero-stat-1">
+          <div class="stat-label">Daily Steps</div>
+          <div class="hero-stat-row">
+            <span class="stat-value">11,784</span>
+          </div>
+        </div>
+        <div class="hero-stat hero-stat-2">
+          <div class="stat-label">🔥 Calories Burned</div>
+          <div class="hero-stat-row">
+            <span class="stat-value">1,840</span><span class="stat-unit"> kcal</span>
+          </div>
+        </div>
+        <div class="hero-stat hero-stat-3">
+          <div class="stat-label">⚡ Streak</div>
+          <div class="hero-stat-row">
+            <span class="stat-value">23</span><span class="stat-unit"> days</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ ABOUT / ECOSYSTEM ═══════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">The ONLEVN Ecosystem</div>
+        <h2>Building Journeys. <span class="text-green">All From One App.</span></h2>
+        <p class="section-subtitle">Everything you need to transform your fitness, nutrition and lifestyle — all in one place.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card about-card reveal reveal-delay-1">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Personalized Training</h3>
+          <p>Custom training plans designed for your body, fitness level, lifestyle and schedule.</p>
+        </div>
+
+        <div class="card about-card reveal reveal-delay-2">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12z"/><path d="M12 2a10 10 0 0 1 10 10"/><path d="m8 14 2.5-2.5L13 14l3-3"/></svg>
+          </div>
+          <h3>Smart Nutrition</h3>
+          <p>AI-driven guidance on diet, macro-nutritional plans, and healthy eating to fuel your journey.</p>
+        </div>
+
+        <div class="card about-card reveal reveal-delay-3">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3>Habit Tracking</h3>
+          <p>Track workouts, build consistency and stay accountable with real-time progress dashboards.</p>
+        </div>
+
+        <div class="card about-card reveal reveal-delay-4">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M13 8H7"/><path d="M17 12H7"/></svg>
+          </div>
+          <h3>Coach Support</h3>
+          <p>Real human coaches, real check-ins, real accountability every step of the way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ HOW IT WORKS ═══════════════════════ -->
+  <section id="how-it-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">How It Works</div>
+        <h2>Your Transformation in <span class="text-green">4 Steps.</span></h2>
+        <p class="section-subtitle">A simple, proven process designed to deliver lasting results.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card card reveal reveal-delay-1">
+          <div class="step-number">01</div>
+          <h3>Join</h3>
+          <p>Create your account and become part of the ONLEVN community in seconds.</p>
+        </div>
+        <div class="step-card card reveal reveal-delay-2">
+          <div class="step-number">02</div>
+          <h3>Assessment</h3>
+          <p>Complete your assessment to share your goals, fitness level and health history.</p>
+        </div>
+        <div class="step-card card reveal reveal-delay-3">
+          <div class="step-number">03</div>
+          <h3>Personalized Plan</h3>
+          <p>Get a custom plan covering nutrition, workouts, lifestyle changes and daily goals.</p>
+        </div>
+        <div class="step-card card reveal reveal-delay-4">
+          <div class="step-number">04</div>
+          <h3>Stay Consistent</h3>
+          <p>Track, adapt and grow with ongoing coach support and motivation every day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ APP SHOWCASE ═══════════════════════ -->
+  <section id="app-showcase">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">The ONLEVN App</div>
+        <h2>Your Coach. <span class="text-green">In Your Pocket.</span></h2>
+        <p class="section-subtitle">Explore the all-in-one app designed to make your wellness journey seamless and powerful.</p>
+      </div>
+
+      <div class="showcase-phones reveal-scale">
+
+        <!-- 1 — Splash / Dashboard -->
+        <div class="showcase-item">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img
+                src="app images/Screenshot_20260709-165438.jpg"
+                alt="ONLEVN Dashboard"
+                style="object-position: center 8%;"
+              />
+            </div>
+          </div>
+          <div class="showcase-label-text">
+            <h4>Dashboard</h4>
+            <p>Track daily progress</p>
+          </div>
+        </div>
+
+        <!-- 2 — Welcome / Workouts -->
+        <div class="showcase-item">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img
+                src="app images/Screenshot_20260709-165444.jpg"
+                alt="ONLEVN Workouts"
+                style="object-position: center 8%;"
+              />
+            </div>
+          </div>
+          <div class="showcase-label-text">
+            <h4>Workouts</h4>
+            <p>Personalised plans</p>
+          </div>
+        </div>
+
+        <!-- 3 — Nutrition (center / tallest) -->
+        <div class="showcase-item center">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img
+                src="app images/Screenshot_20260709-165448.jpg"
+                alt="ONLEVN Nutrition"
+                style="object-position: center 8%;"
+              />
+            </div>
+          </div>
+          <div class="showcase-label-text">
+            <h4>Nutrition</h4>
+            <p>Smart meal guidance</p>
+          </div>
+        </div>
+
+        <!-- 4 — Activity / Progress -->
+        <div class="showcase-item">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img
+                src="app images/Screenshot_20260709-165449.jpg"
+                alt="ONLEVN Progress"
+                style="object-position: center 8%;"
+              />
+            </div>
+          </div>
+          <div class="showcase-label-text">
+            <h4>Progress</h4>
+            <p>Track milestones</p>
+          </div>
+        </div>
+
+        <!-- 5 — Coaching -->
+        <div class="showcase-item">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img
+                src="app images/Screenshot_20260709-165451.jpg"
+                alt="ONLEVN Coach Chat"
+                style="object-position: center 8%;"
+              />
+            </div>
+          </div>
+          <div class="showcase-label-text">
+            <h4>Coach Chat</h4>
+            <p>Real-time support</p>
+          </div>
+        </div>
+
+      </div><!-- /.showcase-phones -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ WHY ONLEVN ═══════════════════════ -->
+  <section id="why-onlevn">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Why ONLEVN</div>
+        <h2>Built Different. <span class="text-green">Built For You.</span></h2>
+        <p class="section-subtitle">We don't just build workout plans. We build systems that make discipline your default.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="card reveal reveal-delay-1">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Built Around You</h3>
+          <p>Your goals, your schedule, your lifestyle. Every plan is tailored specifically for you — no cookie-cutter templates.</p>
+        </div>
+
+        <div class="card reveal reveal-delay-2">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Science-Based Coaching</h3>
+          <p>Every plan is backed by exercise science and nutrition research — not trends or hype.</p>
+        </div>
+
+        <div class="card reveal reveal-delay-3">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Consistency Over Motivation</h3>
+          <p>We build systems that keep you going even when motivation fades. Because discipline wins.</p>
+        </div>
+
+        <div class="card reveal reveal-delay-4">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Real Accountability</h3>
+          <p>Real coaches, real check-ins, real results. No bots. Your coach has your back — always.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PROGRAMS ═══════════════════════ -->
+  <section id="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Our Programs</div>
+        <h2>Programs For <span class="text-green">Every Goal.</span></h2>
+        <p class="section-subtitle">From beginners to elite athletes — a program built for your ambition.</p>
+      </div>
+
+      <div class="programs-grid">
+
+        <div class="card program-card reveal reveal-delay-1">
+          <div class="program-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <div class="program-name">Vital</div>
+          <div class="program-tag">Foundation</div>
+          <p>Kickstart your fitness journey with fundamentals in training and nutrition.</p>
+          <a href="#" class="btn btn-outline-green btn-sm">Learn More</a>
+        </div>
+
+        <div class="card program-card reveal reveal-delay-2">
+          <div class="program-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="M3 3l1 1"/><path d="M17.5 6.5 21 3"/><path d="m6.5 6.5-4-3.5"/><path d="m17.5 17.5 4 3.5"/><path d="m6.5 17.5-3.5 4"/></svg>
+          </div>
+          <div class="program-name">Forge</div>
+          <div class="program-tag">Strength</div>
+          <p>Build strength, stamina and a resilient physique with progressive training.</p>
+          <a href="#" class="btn btn-outline-green btn-sm">Learn More</a>
+        </div>
+
+        <div class="card program-card reveal reveal-delay-3">
+          <div class="program-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <div class="program-name">Apex</div>
+          <div class="program-tag">Performance</div>
+          <p>High-performance training to push beyond your perceived limits.</p>
+          <a href="#" class="btn btn-outline-green btn-sm">Learn More</a>
+        </div>
+
+        <div class="card program-card reveal reveal-delay-4">
+          <div class="program-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div class="program-name">Pulse</div>
+          <div class="program-tag">Lifestyle</div>
+          <p>Holistic wellness combining mindful movement, nutrition and stress relief.</p>
+          <a href="#" class="btn btn-outline-green btn-sm">Learn More</a>
+        </div>
+
+        <div class="card program-card reveal reveal-delay-5">
+          <div class="program-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 20 20-16"/><path d="M20 20 2 4"/></svg>
+          </div>
+          <div class="program-name">Elevate</div>
+          <div class="program-tag">Elite</div>
+          <p>Premium 1-on-1 coaching with fully customised plans and direct access.</p>
+          <a href="#" class="btn btn-outline-green btn-sm">Learn More</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CORPORATE / SCHOOLS / COLLEGES ═══════════════════════ -->
+  <section id="corporate">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Corporate • Schools • Colleges</div>
+        <h2>Wellness That <span class="text-green">Creates Impact.</span></h2>
+        <p class="section-subtitle">Empower your organisation with science-backed wellness programs designed for teams.</p>
+      </div>
+
+      <div class="corporate-grid">
+        <div class="card corporate-card reveal reveal-delay-1">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Corporate Wellness</h3>
+          <p>Boost productivity, reduce burnout and build a high-performance culture through structured wellness solutions.</p>
+        </div>
+
+        <div class="card corporate-card reveal reveal-delay-2">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <h3>School Wellness</h3>
+          <p>Build healthy habits early. Our programs inspire students to embrace fitness, nutrition and mental wellness.</p>
+        </div>
+
+        <div class="card corporate-card reveal reveal-delay-3">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 6 3 12 0v-5"/></svg>
+          </div>
+          <h3>College Wellness</h3>
+          <p>Empower young adults with personalized programs covering fitness, nutrition, stress and career readiness.</p>
+        </div>
+      </div>
+
+      <div class="corporate-cta reveal">
+        <a href="#" class="btn btn-primary">
+          Book a Consultation
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ MEET THE COACH ═══════════════════════ -->
+  <section id="coach">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Meet the Coach</div>
+        <h2>Guided By Experience. <span class="text-green">Driven By Purpose.</span></h2>
+      </div>
+
+      <div class="coach-wrapper">
+        <!-- Image side -->
+        <div class="coach-image-wrapper reveal">
+          <div class="coach-img-outer">
+            <img src="assets/images/coach-photo.png" alt="ONLEVN Head Coach" />
+          </div>
+          <div class="coach-accent-tl"></div>
+          <div class="coach-accent-br"></div>
+        </div>
+
+        <!-- Content side -->
+        <div class="coach-content reveal reveal-delay-2">
+          <p class="coach-subtitle">My Coaching Philosophy</p>
+          <p class="coach-intro">
+            At the foundation of ONLEVN is a belief that real transformation comes from discipline — not quick fixes. With years of experience in fitness coaching, sports science and behavioural change, every approach is built on systems that last. We don't chase trends. We build people.
+          </p>
+          <div class="coach-philosophy">
+            <h4>Core Principles</h4>
+            <ul>
+              <li>Discipline over motivation</li>
+              <li>Consistency creates results</li>
+              <li>Science-backed, human-led coaching</li>
+              <li>Build habits, not dependencies</li>
+              <li>Every person deserves a plan that respects their life</li>
+              <li>True, real accountability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FAQ ═══════════════════════ -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">FAQ</div>
+        <h2>Frequently Asked <span class="text-green">Questions.</span></h2>
+      </div>
+
+      <div class="faq-wrapper">
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>What is ONLEVN?</span>
+            <div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div>
+          </button>
+          <div class="faq-answer"><p>ONLEVN is a premium all-in-one fitness and wellness coaching platform. It combines personalized training, smart nutrition planning, habit tracking, and real coach support to help you build lasting health and discipline.</p></div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-1">
+          <button class="faq-question">
+            <span>Is ONLEVN only for gym-goers?</span>
+            <div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div>
+          </button>
+          <div class="faq-answer"><p>Not at all. ONLEVN is designed for everyone — beginners, home workout enthusiasts, or experienced athletes. Our programs adapt to your lifestyle, goals and fitness level — no gym required.</p></div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-2">
+          <button class="faq-question">
+            <span>How is ONLEVN different from other fitness apps?</span>
+            <div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div>
+          </button>
+          <div class="faq-answer"><p>Unlike generic fitness apps, ONLEVN provides real human coaching, fully personalised plans, and a system built on consistency — not trends. We focus on long-term lifestyle transformation, not short-term fixes.</p></div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-3">
+          <button class="faq-question">
+            <span>Do I get a real coach or is it just AI?</span>
+            <div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div>
+          </button>
+          <div class="faq-answer"><p>You get a real, certified human coach. While we use smart technology to enhance your experience, ONLEVN is built on human connection. Your coach is always there to guide, support and hold you accountable.</p></div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-4">
+          <button class="faq-question">
+            <span>Can ONLEVN help with corporate or school wellness?</span>
+            <div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div>
+          </button>
+          <div class="faq-answer"><p>Absolutely. We offer tailored wellness programs for corporates, schools and colleges — designed to improve employee health, student well-being, and organisational performance. Contact us for a free consultation.</p></div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-5">
+          <button class="faq-question">
+            <span>What does it cost to join ONLEVN?</span>
+            <div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div>
+          </button>
+          <div class="faq-answer"><p>We offer different programs to suit various needs and goals. To learn about the right program for you, reach out to us directly — we'll guide you through the best option for your journey.</p></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FINAL CTA ═══════════════════════ -->
+  <section id="final-cta">
+    <div class="container reveal">
+      <h2><span class="text-green">Discipline</span> Wins.</h2>
+      <p class="cta-subtitle">Your Journey Starts Now.</p>
+      <a href="#" class="btn btn-primary">
+        Start Your Journey
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="brand_logo/logo_horizontal.png" alt="ONLEVN" />
+          </div>
+          <p>ONLEVN is a premium online coaching platform built to help you build discipline, transform your health, and live your strongest life.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Our Approach</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#">Vital</a></li>
+            <li><a href="#">Forge</a></li>
+            <li><a href="#">Apex</a></li>
+            <li><a href="#">Pulse</a></li>
+            <li><a href="#">Elevate</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Corporate Wellness</h4>
+          <ul>
+            <li><a href="#">Corporate Wellness</a></li>
+            <li><a href="#">School Wellness</a></li>
+            <li><a href="#">College Wellness</a></li>
+            <li><a href="#">Book Consultation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@onlevn.com">hello@onlevn.com</a></li>
+            <li><a href="tel:+911234567890">+91 12345 67890</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 ONLEVN. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
