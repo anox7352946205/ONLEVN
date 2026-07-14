@@ -611,6 +611,117 @@ h3{font-size:clamp(1.1rem,2vw,1.5rem);}
 .reveal-scale.visible{opacity:1;transform:scale(1);}
 
 /* ============================================================
+   LIFESTYLE & PRODUCT REVIEWS
+   ============================================================ */
+#lifestyle-reviews { background: var(--dark-grey); }
+
+/* 3-column card grid */
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+/* Card layout: flex column so CTA always sits at the bottom */
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 36px 28px 28px;
+}
+.review-card-body {
+  flex: 1;           /* pushes CTA to the bottom */
+  margin-bottom: 24px;
+}
+.review-card-body h3 { margin-bottom: 10px; }
+.review-card-body p  { color: var(--grey); font-size: 0.92rem; line-height: 1.7; }
+
+/* Icon scale on hover */
+.review-icon { transition: var(--transition); }
+.review-card:hover .review-icon { transform: scale(1.12); }
+
+/* CTA link width */
+.review-cta { align-self: flex-start; }
+
+/* ── Featured Banner ─────────────────────────────────────── */
+.review-featured-banner {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(166,255,0,0.07) 0%, rgba(166,255,0,0.03) 60%, transparent 100%);
+  border: 1px solid rgba(166,255,0,0.18);
+  border-radius: var(--radius);
+  padding: 56px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+.review-featured-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 620px;
+}
+.review-featured-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 18px;
+  background: var(--green-dim);
+  border: 1px solid rgba(166,255,0,0.18);
+  border-radius: 60px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--green);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.review-featured-label .dot {
+  width: 7px; height: 7px;
+  background: var(--green);
+  border-radius: 50%;
+  animation: pulse-dot 2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+.review-featured-inner h3 {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: -0.03em;
+}
+.review-featured-inner p {
+  color: var(--grey);
+  font-size: 0.97rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  max-width: 520px;
+}
+/* Decorative glow blob in the banner */
+.review-featured-glow {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(circle, rgba(166,255,0,0.1) 0%, transparent 65%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  animation: glow-pulse 5s ease-in-out infinite;
+}
+
+/* Responsive */
+@media(max-width:1100px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media(max-width:768px) {
+  .review-grid { grid-template-columns: 1fr; }
+  .review-featured-banner { padding: 40px 28px; }
+}
+
+/* ============================================================
    DOWNLOAD PAGE
    ============================================================ */
 .store-btn-group {
