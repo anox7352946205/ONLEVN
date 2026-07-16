@@ -915,6 +915,27 @@ h3{font-size:clamp(1.1rem,2vw,1.5rem);}
     scroll-snap-align: center;
   }
   
+  /* Swipe Hint Badges (CSS-only) */
+  #about .section-header::after, 
+  #how-it-works .section-header::after, 
+  #programs .section-header::after, 
+  #corporate .section-header::after, 
+  #lifestyle-reviews .section-header::after {
+    content: 'Swipe \2192';
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--black);
+    background: var(--green);
+    padding: 6px 14px;
+    border-radius: 30px;
+    margin-top: 18px;
+    box-shadow: 0 4px 14px rgba(166,255,0,0.3);
+    animation: swipe-bounce 2s infinite ease-in-out;
+  }
+  
   /* Cards Padding */
   .card, .about-card, .corporate-card{padding:24px 20px;}
   .program-card{padding:24px 16px;}
@@ -964,6 +985,11 @@ h3{font-size:clamp(1.1rem,2vw,1.5rem);}
 
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:0.01ms!important;}
+}
+
+@keyframes swipe-bounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(6px); }
 }
 
 /* ============================================================
